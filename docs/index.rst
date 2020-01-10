@@ -2,7 +2,7 @@
 Christina Ngwa
 ==============
 
-Hello, World!
+Hello!
 
 
 .. toctree::
