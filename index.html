@@ -1,28 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Web App</title>
-  </head>
-  <body>
-    <div id="user_info">
-      <p>Please wait ...</p>
-    </div>
-    <div>
-      <button onclick="getUser()">Click me</button>
-    </div>
-  </body>
-
-  <script type="text/javascript">
-
-    async function getUser() {
-      // get the user info from API
-
-      const api_url = 'https://fweg2qtlf7.execute-api.us-east-1.amazonaws.com/prod/get-user-profile?user_email=christina.ngwa@ocsbstudent.ca';
-      const api_response = await fetch(api_url);
-      const api_data = await(api_response).json();
-
-      const div_user_info = document.getElementById('user_info');
-      div_user_info.innerHTML = api_data['body'];
-    }
-  </script>
+    <head>
+        <title> AWS Severless App </title>
+    </head>
+    <body>
+    <p><a href="https://my-web-app.auth.us-east-1.amazoncognito.com/login?client_id=47dmdib5faka5f1njloch09og2&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+phone+profile&redirect_uri=https://example.com">Sign Up</a></p>
+    <p><a href="./sign-in.html">Sign In</a></p>
+    <p>Sign Out</p>
+    </body>
 </html>
