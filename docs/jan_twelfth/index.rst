@@ -4,6 +4,9 @@ January 12
 
 **What I Did Today:**
 
-Today I created a Github repo and a Cloud9 instance then connected the root of Cloud9 to the repo.
-Then, I created a index.html file in the root of Cloud9 and updated it to my repo.
-Finally, I created an Amplify instance and connected it to the Github repo.
+Today I:
+- created an AWS Cognito user pool
+- created an app client
+- used the Cognito built-in signup URL to create a user and click on the provided link to confirm the user
+- confirmed the user now exists in the Congnito pool
+- ensured this user also exists in the DynamoDB table, so that this user has information in your table
