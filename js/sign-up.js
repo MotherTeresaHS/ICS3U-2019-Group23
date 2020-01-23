@@ -1,5 +1,3 @@
-// JavaScript File
-
 var username;
 var password;
 var poolData;

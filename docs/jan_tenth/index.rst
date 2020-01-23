@@ -4,6 +4,10 @@ January 10
 
 **What I Did Today:**
 
-Today I created a Github repo and a Cloud9 instance then connected the root of Cloud9 to the repo.
-Then, I created a index.html file in the root of Cloud9 and updated it to my repo.
-Finally, I created an Amplify instance and connected it to the Github repo.
+Today I:
+- created an API Gateway
+- added in CORS, so that any URL can access our API
+- created a “GET” request, to get the user info
+- added in a “mapping” template, to specify what parameters it allows to be passed in
+- enabled CORS, or we cannot access the API due to being in different domains
+- published the API, so it is visible on the Internet
